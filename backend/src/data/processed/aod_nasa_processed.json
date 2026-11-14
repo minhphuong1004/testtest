@@ -1,0 +1,152 @@
+{
+  "_meta": {
+    "notice": "DEVELOPMENT MOCK PROTOTYPE DATASET",
+    "disclaimer": "This dataset contains synthetic prototype values and placeholder imagery for fullstack integration testing. It MUST NOT be cited or presented as verified NASA observations. Aerosol Optical Depth (AOD) is dimensionless and distinct from surface Air Quality Index (AQI).",
+    "isMock": true,
+    "targetVariable": "Aerosol Optical Depth (AOD at 550 nm)",
+    "unit": "dimensionless",
+    "version": "0.1.0-mock"
+  },
+  "dataset": {
+    "id": "mock-nasa-aod-series-2026",
+    "title": "Aerosol Optical Depth (AOD 550nm) - Synthetic Prototype Series",
+    "source": "Development Prototype Generator (Pending Live NASA Ingestion)",
+    "sourceUrl": "https://earthdata.nasa.gov",
+    "variable": "Aerosol Optical Depth (AOD 550nm)",
+    "unit": "dimensionless",
+    "description": "Synthetic time series of column aerosol optical depth for prototype testing. Column AOD quantifies total vertical optical attenuation caused by aerosols aloft. Dimensionless physical property fundamentally distinct from surface Air Quality Index (AQI).",
+    "isMock": true,
+    "range": {
+      "min": 0.08,
+      "max": 1.15
+    },
+    "observations": [
+      {
+        "id": "mock-obs-aod-01",
+        "timestamp": "2026-08-01T00:00:00Z",
+        "imageUrl": "https://images.unsplash.com/photo-1614728894747-a83421e2b9c9?auto=format&fit=crop&w=1200&q=80",
+        "value": 0.11,
+        "unit": "dimensionless",
+        "variable": "Aerosol Optical Depth (AOD 550nm)",
+        "description": "Baseline atmospheric transparency. Clean oceanic air mass with low particulate extinction (Synthetic prototype).",
+        "isMock": true,
+        "coordinates": {
+          "lat": -12.45,
+          "lon": -45.12,
+          "regionName": "South Atlantic Sector (Synthetic Reference)"
+        },
+        "provenance": {
+          "satellite": "Terra (Modeled)",
+          "instrument": "MODIS (Modeled)",
+          "processingLevel": "Prototype Level 3 Daily Global",
+          "citationUrl": "https://earthdata.nasa.gov"
+        }
+      },
+      {
+        "id": "mock-obs-aod-02",
+        "timestamp": "2026-08-01T04:00:00Z",
+        "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&q=80",
+        "value": 0.24,
+        "unit": "dimensionless",
+        "variable": "Aerosol Optical Depth (AOD 550nm)",
+        "description": "Initial aerosol inflow. Trace particulate dispersion detected along regional coastal margin (Synthetic prototype).",
+        "isMock": true,
+        "coordinates": {
+          "lat": -8.15,
+          "lon": -42.80,
+          "regionName": "Continental Margin (Synthetic Reference)"
+        },
+        "provenance": {
+          "satellite": "Terra / Aqua (Modeled)",
+          "instrument": "MODIS (Modeled)",
+          "processingLevel": "Prototype Level 3 Daily Global",
+          "citationUrl": "https://earthdata.nasa.gov"
+        }
+      },
+      {
+        "id": "mock-obs-aod-03",
+        "timestamp": "2026-08-01T08:00:00Z",
+        "imageUrl": "https://images.unsplash.com/photo-1541185933-ef5d8ed016c2?auto=format&fit=crop&w=1200&q=80",
+        "value": 0.52,
+        "unit": "dimensionless",
+        "variable": "Aerosol Optical Depth (AOD 550nm)",
+        "description": "Developing turbidity. Elevated scattering from transboundary biomass smoke and mineral dust aloft (Synthetic prototype).",
+        "isMock": true,
+        "coordinates": {
+          "lat": -4.20,
+          "lon": -38.50,
+          "regionName": "Tropical Savannah Basin (Synthetic Reference)"
+        },
+        "provenance": {
+          "satellite": "Aqua (Modeled)",
+          "instrument": "MODIS (Modeled)",
+          "processingLevel": "Prototype Level 3 Daily Global",
+          "citationUrl": "https://earthdata.nasa.gov"
+        }
+      },
+      {
+        "id": "mock-obs-aod-04",
+        "timestamp": "2026-08-01T12:00:00Z",
+        "imageUrl": "https://images.unsplash.com/photo-1506703719100-a0f3a48c0f86?auto=format&fit=crop&w=1200&q=80",
+        "value": 1.08,
+        "unit": "dimensionless",
+        "variable": "Aerosol Optical Depth (AOD 550nm)",
+        "description": "Concentrated aerosol plume peak. Strong column extinction observed across equatorial transport belt (Synthetic prototype).",
+        "isMock": true,
+        "coordinates": {
+          "lat": 0.50,
+          "lon": -35.20,
+          "regionName": "Equatorial Transport Corridor (Synthetic Reference)"
+        },
+        "provenance": {
+          "satellite": "Terra (Modeled)",
+          "instrument": "MODIS (Modeled)",
+          "processingLevel": "Prototype Level 3 Daily Global",
+          "citationUrl": "https://earthdata.nasa.gov"
+        }
+      },
+      {
+        "id": "mock-obs-aod-05",
+        "timestamp": "2026-08-01T16:00:00Z",
+        "imageUrl": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&w=1200&q=80",
+        "value": 0.76,
+        "unit": "dimensionless",
+        "variable": "Aerosol Optical Depth (AOD 550nm)",
+        "description": "Plume dispersion phase. Aerosols spreading downwind into mid-tropospheric layer (Synthetic prototype).",
+        "isMock": true,
+        "coordinates": {
+          "lat": 5.10,
+          "lon": -30.80,
+          "regionName": "Mid-Atlantic Dispersion Zone (Synthetic Reference)"
+        },
+        "provenance": {
+          "satellite": "Aqua (Modeled)",
+          "instrument": "MODIS (Modeled)",
+          "processingLevel": "Prototype Level 3 Daily Global",
+          "citationUrl": "https://earthdata.nasa.gov"
+        }
+      },
+      {
+        "id": "mock-obs-aod-06",
+        "timestamp": "2026-08-01T20:00:00Z",
+        "imageUrl": "https://images.unsplash.com/photo-1502134249126-9f3755a50d78?auto=format&fit=crop&w=1200&q=80",
+        "value": 0.32,
+        "unit": "dimensionless",
+        "variable": "Aerosol Optical Depth (AOD 550nm)",
+        "description": "Atmospheric clearing. Residual aerosol loading gradually diluting toward regional background (Synthetic prototype).",
+        "isMock": true,
+        "coordinates": {
+          "lat": 10.20,
+          "lon": -26.50,
+          "regionName": "Subtropical Maritime Belt (Synthetic Reference)"
+        },
+        "provenance": {
+          "satellite": "Terra (Modeled)",
+          "instrument": "MODIS (Modeled)",
+          "processingLevel": "Prototype Level 3 Daily Global",
+          "citationUrl": "https://earthdata.nasa.gov"
+        }
+      }
+    ]
+  }
+}

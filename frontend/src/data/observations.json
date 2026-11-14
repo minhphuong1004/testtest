@@ -1,0 +1,116 @@
+{
+  "_meta": {
+    "notice": "DEVELOPMENT MOCK DATA ONLY",
+    "disclaimer": "The values and imagery in this file are synthetic mock values created strictly for hackathon prototyping and UI skeleton development. They MUST NOT be represented as verified NASA observations, nor cited as real scientific measurements. Aerosol Optical Depth (AOD) values are dimensionless and are NEVER to be conflated with Air Quality Index (AQI).",
+    "isMock": true,
+    "targetVariable": "Aerosol Optical Depth (AOD at 550 nm)",
+    "unit": "dimensionless",
+    "version": "0.1.0-mock"
+  },
+  "dataset": {
+    "id": "mock-dataset-aod-global-2026",
+    "title": "Aerosol Optical Depth (Synthetic Prototype Series)",
+    "source": "Development Mock Generator (Placeholder - Pending N01 NASA Data Ingestion)",
+    "sourceUrl": "https://earthdata.nasa.gov",
+    "variable": "Aerosol Optical Depth (AOD 550nm)",
+    "unit": "dimensionless",
+    "description": "Synthetic time series of column aerosol optical depth for prototype testing. Column AOD quantifies how aerosols (dust, smoke, sulfates) scatter and absorb sunlight across the entire atmospheric column. AOD is a dimensionless physical property, fundamentally distinct from surface Air Quality Index (AQI).",
+    "isMock": true,
+    "range": {
+      "min": 0.05,
+      "max": 1.25
+    },
+    "observations": [
+      {
+        "id": "mock-obs-001",
+        "timestamp": "2026-08-01T00:00:00Z",
+        "imageUrl": "https://images.unsplash.com/photo-1614728894747-a83421e2b9c9?auto=format&fit=crop&w=1200&q=80",
+        "value": 0.12,
+        "unit": "dimensionless",
+        "variable": "Aerosol Optical Depth (AOD 550nm)",
+        "description": "Clear background atmospheric conditions with minimal particulate scattering. Characteristic of clean oceanic or polar maritime air masses.",
+        "isMock": true,
+        "coordinates": {
+          "lat": -12.45,
+          "lon": -45.12,
+          "regionName": "South Atlantic Sector (Synthetic Reference)"
+        }
+      },
+      {
+        "id": "mock-obs-002",
+        "timestamp": "2026-08-01T04:00:00Z",
+        "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&q=80",
+        "value": 0.28,
+        "unit": "dimensionless",
+        "variable": "Aerosol Optical Depth (AOD 550nm)",
+        "description": "Mild elevation in aerosol light extinction. Typical of diffuse regional haze or early transboundary transport.",
+        "isMock": true,
+        "coordinates": {
+          "lat": -8.15,
+          "lon": -42.80,
+          "regionName": "Continental Margin (Synthetic Reference)"
+        }
+      },
+      {
+        "id": "mock-obs-003",
+        "timestamp": "2026-08-01T08:00:00Z",
+        "imageUrl": "https://images.unsplash.com/photo-1541185933-ef5d8ed016c2?auto=format&fit=crop&w=1200&q=80",
+        "value": 0.54,
+        "unit": "dimensionless",
+        "variable": "Aerosol Optical Depth (AOD 550nm)",
+        "description": "Moderate atmospheric turbidity. Increased light attenuation from biomass burning smoke or mineral dust aloft.",
+        "isMock": true,
+        "coordinates": {
+          "lat": -4.20,
+          "lon": -38.50,
+          "regionName": "Tropical Savannah Basin (Synthetic Reference)"
+        }
+      },
+      {
+        "id": "mock-obs-004",
+        "timestamp": "2026-08-01T12:00:00Z",
+        "imageUrl": "https://images.unsplash.com/photo-1506703719100-a0f3a48c0f86?auto=format&fit=crop&w=1200&q=80",
+        "value": 0.95,
+        "unit": "dimensionless",
+        "variable": "Aerosol Optical Depth (AOD 550nm)",
+        "description": "Dense aerosol plume event. Substantial optical extinction across atmospheric column due to concentrated smoke/dust plume.",
+        "isMock": true,
+        "coordinates": {
+          "lat": 0.50,
+          "lon": -35.20,
+          "regionName": "Equatorial Plume Corridor (Synthetic Reference)"
+        }
+      },
+      {
+        "id": "mock-obs-005",
+        "timestamp": "2026-08-01T16:00:00Z",
+        "imageUrl": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&w=1200&q=80",
+        "value": 0.78,
+        "unit": "dimensionless",
+        "variable": "Aerosol Optical Depth (AOD 550nm)",
+        "description": "Plume dispersion phase. Aerosols transported downwind, with optical extinction gradually diluting.",
+        "isMock": true,
+        "coordinates": {
+          "lat": 5.10,
+          "lon": -30.80,
+          "regionName": "Mid-Atlantic Dispersion Zone (Synthetic Reference)"
+        }
+      },
+      {
+        "id": "mock-obs-006",
+        "timestamp": "2026-08-01T20:00:00Z",
+        "imageUrl": "https://images.unsplash.com/photo-1502134249126-9f3755a50d78?auto=format&fit=crop&w=1200&q=80",
+        "value": 0.35,
+        "unit": "dimensionless",
+        "variable": "Aerosol Optical Depth (AOD 550nm)",
+        "description": "Residual optical haze settling toward regional baseline. Atmosphere gradually clearing.",
+        "isMock": true,
+        "coordinates": {
+          "lat": 10.20,
+          "lon": -26.50,
+          "regionName": "Subtropical Ocean Belt (Synthetic Reference)"
+        }
+      }
+    ]
+  }
+}
